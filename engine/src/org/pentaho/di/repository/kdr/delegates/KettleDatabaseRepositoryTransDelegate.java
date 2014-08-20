@@ -1409,6 +1409,7 @@ public class KettleDatabaseRepositoryTransDelegate extends KettleDatabaseReposit
     transMeta.getStepLogTable().saveToRepository( attributeInterface );
     transMeta.getPerformanceLogTable().saveToRepository( attributeInterface );
     transMeta.getChannelLogTable().saveToRepository( attributeInterface );
+    transMeta.getMetricsLogTable().saveToRepository( attributeInterface );
   }
 
   private synchronized ObjectId insertTransHop( ObjectId id_transformation, ObjectId id_step_from,
